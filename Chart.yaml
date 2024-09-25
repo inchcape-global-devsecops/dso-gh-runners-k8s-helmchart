@@ -26,8 +26,8 @@ appVersion: "0.9.3"
 home: https://github.com/actions/actions-runner-controller
 
 sources:
-  - "https://github.com/actions/actions-runner-controller"
+- "https://github.com/actions/actions-runner-controller"
 
 maintainers:
-  - name: actions
-    url: https://github.com/actions
+- name: actions
+  url: https://github.com/actions
