@@ -96,7 +96,7 @@ volumeMounts:
 {{- end }}
 
 {{- define "gha-runner-scale-set.dind-container" -}}
-image: {{- .Values.dind_container.image }}
+image: {{ .Values.dind_container.image }}
 args:
   - dockerd
   - --host=unix:///var/run/docker.sock
